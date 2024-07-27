@@ -11,6 +11,7 @@
 		458810642C538A76006476FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458810632C538A76006476FF /* ContentView.swift */; };
 		458810662C538A77006476FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 458810652C538A77006476FF /* Assets.xcassets */; };
 		458810692C538A77006476FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 458810682C538A77006476FF /* Preview Assets.xcassets */; };
+		458810702C54A13D006476FF /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4588106F2C54A13A006476FF /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		458810632C538A76006476FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		458810652C538A77006476FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		458810682C538A77006476FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4588106F2C54A13A006476FF /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		458810602C538A76006476FF /* LearnMapKit */ = {
 			isa = PBXGroup;
 			children = (
+				4588106F2C54A13A006476FF /* LocationManager.swift */,
 				458810612C538A76006476FF /* LearnMapKitApp.swift */,
 				458810632C538A76006476FF /* ContentView.swift */,
 				458810652C538A77006476FF /* Assets.xcassets */,
@@ -139,6 +142,7 @@
 			files = (
 				458810642C538A76006476FF /* ContentView.swift in Sources */,
 				458810622C538A76006476FF /* LearnMapKitApp.swift in Sources */,
+				458810702C54A13D006476FF /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +279,7 @@
 				DEVELOPMENT_TEAM = 8PRWAG4355;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +309,7 @@
 				DEVELOPMENT_TEAM = 8PRWAG4355;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

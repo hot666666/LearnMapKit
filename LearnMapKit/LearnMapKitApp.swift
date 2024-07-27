@@ -6,12 +6,19 @@
 //
 
 import SwiftUI
+import CoreLocation
 
 @main
 struct LearnMapKitApp: App {
+    @StateObject var locationManager = LocationManager()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .onAppear {
+                    locationManager.requestAuthorization()
+                }
+                .environmentObject(locationManager)
         }
     }
 }
